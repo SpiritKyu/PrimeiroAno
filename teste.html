@@ -1,0 +1,21 @@
+<script>
+    var aA = parseFloat(prompt("Entre com o ano Atual"));
+    var aN = parseFloat(prompt("Entre com o ano de Nascimento"));
+
+    var id = aA - aN;
+
+    document.write("Idade: " + id + "<br>");
+
+    if (id < 10) {
+        document.write("Você é criança");
+    } else if (id < 18) {
+        document.write("Você é adolescente");
+    } else if (id < 60) {
+        document.write("Você é adulto");
+    } else if(id < 100) {
+        document.write("Você é idoso");
+    } else{
+        document.write("Você está morto.")
+    }
+</script>
+
