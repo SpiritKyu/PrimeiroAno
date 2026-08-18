@@ -1,0 +1,7 @@
+<script>
+    var salario1=parseFloat(prompt("Entre com o salario bruto"));
+    var inss=(salario1/100)*8;
+    var valeTrans=(salario1/100)*6;
+    var salario2=(salario1-inss)-valeTrans;
+    document.write("Seu salario liquido é de: ", +salario2);
+</script>

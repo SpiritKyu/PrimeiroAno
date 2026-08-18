@@ -1,0 +1,6 @@
+Itens
+Serviços do SQL Server
+Configuração de Rede do SQL Server (32 bits)
+Configuração do SQL Native Client 11.0 (32 bits)
+Configuração de Rede do SQL Server
+Configuração do SQL Native Client 11.0

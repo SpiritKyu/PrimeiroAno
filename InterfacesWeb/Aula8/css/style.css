@@ -1,0 +1,9 @@
+body{
+    background: #fc0000
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

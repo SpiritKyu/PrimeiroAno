@@ -1,0 +1,30 @@
+#logo{
+    width: 700px;
+    height: auto;
+}
+
+body{
+    background-color: black;
+}
+
+li{
+    text-align: center;
+}
+
+p{
+    color: red;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+
+}
+
+img{
+    width: 400px;
+    height: auto;
+    margin-right: 50px;
+}

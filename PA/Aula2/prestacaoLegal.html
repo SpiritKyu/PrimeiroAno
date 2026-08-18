@@ -1,0 +1,7 @@
+<script>
+    var valor=parseFloat(prompt("Entre com o da prestação"));
+    var taxa=parseFloat(prompt("Entre com a Taxa de juros aplicada ao dia para correção da prestação"));
+    var tempo=parseFloat(prompt("Entre com a quantidade de dias que a prestação está atrasada"));
+    var prestacao=(valor+(valor*(taxa/100)*tempo))
+    document.write("A prestação é: ",+prestacao);
+</script>

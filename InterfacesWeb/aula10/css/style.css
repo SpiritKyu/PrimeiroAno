@@ -1,0 +1,48 @@
+body{
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+    padding: 0 35px;
+}
+.vermeio{
+    color: rgb(133, 12, 12);
+}
+
+.azulEscurou{
+    color: rgb(28, 47, 110)
+}
+
+.verdeEscurou{
+    color: rgb(42, 75, 72);
+}
+
+.verdinho{
+    color: rgb(65, 202, 19);
+}
+
+.laranja{
+    color: rgb(255, 183, 0);
+}
+
+.vermelhozinho{
+    color: #f00;
+}
+
+.pretoYooo{
+    color: #000;
+}
+
+.roxinho{   
+    color: violet;
+}
+
+ul{
+    list-style-type: none;
+}
+

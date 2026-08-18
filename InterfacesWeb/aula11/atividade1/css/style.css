@@ -1,0 +1,19 @@
+.historias{
+    background: #f3f3f3;
+    padding: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.historia{
+    width: 24%;
+    float: left;
+    margin-right: 1%;
+}
+.historia img{
+    width: 100%;
+    float: left;
+    height: 220px;
+}
+.historia p{
+    font-size: 12px;
+}

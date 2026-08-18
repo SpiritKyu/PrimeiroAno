@@ -1,0 +1,145 @@
+body{
+    background-color: #751735;
+}
+
+.lost{
+    background: url(../images/lost.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+}
+
+.lost2{
+    background: url(../images/lost2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+}
+
+.navegacao{
+    background-color: #e8e64d;
+    padding: 10px 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    padding: 20%;
+}
+
+a{
+    text-decoration: none;
+    color: #4a1224;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #a08181;
+}
+
+.colunas{
+    background: #e8e64d;
+    padding: 10;
+    overflow: hidden;
+}
+
+.imagens{
+    width: 32;
+    float: left;
+    margin-right: 10%;
+    background-color: #e8e64d;
+}
+
+.imagens img{
+    width: 100%;
+    height: 180px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.imagens p{
+    font-size: 14px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.personagens{
+    background: #e8e64d;
+    padding: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.imagens2{
+    width: 39%;
+    float: left;
+    margin-right: 1%;
+}
+.imagens2 img{
+    width: 100%;
+    float: left;
+    height: 220px;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+.imagens2 p{
+    font-size: 12px;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.texto p{
+    text-align: center;
+}
+
+.texto h1{
+    text-align: center;
+    color: #CC5500;
+}
+
+footer {
+    text-align:right;
+    padding: 3px;
+    background-color: #e8af4d;
+  }
+
+
+form{
+    display: table;
+    margin: 0 auto;
+}
+
+form span{
+    color: aliceblue;
+}
+
+.contato{
+    text-align: center;
+    color: #4a1224;
+}
+
+.contato:hover{
+    color: #ffffff;
+}
+
+.logoYay{
+    display: block;
+    margin: 0 auto;
+    width: 20%; 
+}
+
+label{
+    color: white;
+}
+
+form div{
+    padding-bottom: 10px;
+}
