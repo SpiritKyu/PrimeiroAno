@@ -11,16 +11,15 @@ create table tbCliente(
 );
 
 create table tbEndereco(
-    	idEndereco int primary key auto_increment,
-    	idCliente int,
+    idEndereco int primary key auto_increment,
+    idCliente int,
 	logradouroEndereco varchar(20),
 	nomeLogradouro varchar(100),
-	numeroEndereco varchar(10)
-    	numeroEndereco varchar(100),
-    	complementoEndereco varchar(50),
-    	cidadeEndereco varchar(50),
-    	estadoEndereco varchar(50),
-    	cepEndereco varchar(9),
+    numeroEndereco varchar(100),
+    complementoEndereco varchar(50),
+    cidadeEndereco varchar(50),
+    estadoEndereco varchar(50),
+    cepEndereco varchar(9),
 	foreign key (idCliente) references tbCliente(idCliente)
 );
 
