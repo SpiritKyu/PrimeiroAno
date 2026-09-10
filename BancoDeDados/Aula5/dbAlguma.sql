@@ -1,6 +1,7 @@
 -- banco de dados
 create database dbescola;
 
+use dbescola;
 -- tabela
 create table tbaluno(
 	idAluno integer primary key auto_increment,
