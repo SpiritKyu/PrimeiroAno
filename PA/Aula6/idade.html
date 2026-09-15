@@ -1,0 +1,21 @@
+<script>
+    var i = 1;
+    var anoN, anoA, idade;
+
+    while(i<6){
+        anoN = parseFloat(prompt("Entre com o ano de nascimento."));
+        anoA = parseFloat(prompt("Entre com o ano atual."));
+
+        idade = anoA - anoN;
+        
+        document.write("Você tem " +idade+ " anos <br>");
+        
+        if(idade<18){
+            document.write("Você é menor de idade <br> <br>");
+        }else{
+            document.write("Você é maior de idade <br> <br>");
+        }
+
+        i++;
+    }
+</script>
