@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Pousada Refúgio das Estrelas</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
 </head>
-
 <body>
     <header class="menu">
 
@@ -21,6 +19,7 @@
             <a href="index.html">Home</a>
             <a href="contato.html">Contato</a>
             <a href="passagem.html">Passagem</a>
+            <a href="galeria.html">Galeria</a>
             <a href="sobre.html">Sobre nós</a>
         </nav>
 
@@ -30,11 +29,43 @@
 
         <button class="seta esquerda" onclick="anterior()">❮</button>
 
-        <img id="imagem" src="carossel/pousada1.png" alt="Foto da pousada">
+        <img id="imagemCarrosel" src="carossel/pousada1.png" alt="Foto da pousada">
 
         <button class="seta direita" onclick="proxima()">❯</button>
 
     </section>
+
+    <script src="js/script.js"></script>
+
+    <section class="apresentacao">
+        <div class="texto-intro">
+            <h2>Bem-vindo ao Refúgio das Estrelas</h2>
+            <p>
+                Uma pousada tranquila, cercada por natureza, vista para o mar e pensada para quem busca descanso,
+                conforto e momentos inesquecíveis ao lado de quem ama viver bem.
+            </p>
+        </div>
+
+        <div class="beneficios">
+            <article>
+                <h3>Vista panorâmica</h3>
+                <p>Experimente paisagens deslumbrantes com nascer do sol, mar calmo e momentos de paz.</p>
+            </article>
+
+            <article>
+                <h3>Ambiente acolhedor</h3>
+                <p>Recepção amigável, quartos aconchegantes e atenção especial em cada detalhe da sua estadia.</p>
+            </article>
+
+            <article>
+                <h3>Localização privilegiada</h3>
+                <p>Próxima às praias, trilhas e pontos turísticos, com fácil acesso para uma viagem relaxante.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- confesso q esse texto aq foi pego na ia prof, não consegui pensar em textos pra colocar... so q eu queria colocar pra pagina n ficar so imagem -->
+
 
     <section class="colunas">
         <div>
@@ -72,7 +103,6 @@
         </div>
     </section>
 
-    <script src="js/script.js"></script>
     
 
     <footer class="rodape">
@@ -85,8 +115,12 @@
         </nav>
 
 
-        <h5>Lição feita. proibido copyright</h5>
+        <h5>Lição feita</h5>
+
+        <h5>© Copyright 2026 Curso Técnico de Informática para Internet - Primeiro ano</h5>
     
     </footer>
+
+     <!-- pegamo o footer da globo ein cof cof -->
 </body>
 </html>
