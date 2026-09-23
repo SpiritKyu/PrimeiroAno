@@ -115,7 +115,10 @@ select nomeProfessor from tbprofessor where disciplina = 'Português';
 
 
 
-
+-- Valkyria
+-- Gustavo
+-- Arthur
+-- Carlos
 
 
 
