@@ -10,6 +10,12 @@ create table tbaluno(
     curso varchar(1000),
     nota float(1000)
 );
+
+create table tbprofessor(
+
+
+	
+);
  -- olhar tabela --
 select * from tbaluno;
 
