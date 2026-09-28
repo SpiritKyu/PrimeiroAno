@@ -1,0 +1,26 @@
+<script>
+    var mes = parseInt(prompt("Entre com o mes(em numero)"));
+
+    switch(mes){
+        case 1, 3, 5, 7, 9, 10, 12:
+            document.write("O mês tem 31 dias.");
+        break;
+
+        case 4, 6, 8, 11:
+            document.write("O mês tem 30 dias.");
+        break;
+        
+        case 2:
+            document.write("O mês tem 28 ou 29 dias.");
+        break;
+
+        default:
+            document.write("mês inválido.")
+    }
+</script>
+
+<!-- 
+31 - 1,3,5,7,9,10,12
+30 - 4,6,8,11
+28 ou 29 - 2, 
+-->
