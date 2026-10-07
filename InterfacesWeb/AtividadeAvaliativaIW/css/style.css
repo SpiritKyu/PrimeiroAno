@@ -190,7 +190,7 @@
     gap: 20px;
 }
 
-.beneficios article {
+.beneficios div {
     background-color: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 14px;
@@ -374,7 +374,7 @@ CELULAR
         gap: 14px;
     }
 
-    .beneficios article {
+    .beneficios div {
         padding: 16px 14px;
     }
 
