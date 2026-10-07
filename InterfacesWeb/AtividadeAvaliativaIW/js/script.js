@@ -1,10 +1,10 @@
 const IMAGENS = [
-    "carossel/pousada1.png",
-    "carossel/pousada2.png",
-    "carossel/pousada3.png",
-    "carossel/pousada4.png",
-    "carossel/pousada5.png",
-    "carossel/pousada6.png"
+    "carossel/pousada1.png",// 0
+    "carossel/pousada2.png",// 1
+    "carossel/pousada3.png",// 2
+    "carossel/pousada4.png",// 3
+    "carossel/pousada5.png",// 4
+    "carossel/pousada6.png"// 5
 ];
 
 var atual = 0;
