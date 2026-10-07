@@ -16,9 +16,8 @@ var atual = 0;
 const IMAGEM = document.getElementById("imagemCarrosel"); //aq busca no html o elemento com o id "imagem" ai o js muda o src dessa imagem 
 
 function atualizarImagem() {
-    if (!IMAGEM) return;
     IMAGEM.src = IMAGENS[atual];
-} // essa função verifica se a imagem existe, ai se existir ela troca o atributo src da tag img pra imagem do indice atual
+}
 
 function proxima() {
     atual = (atual + 1) % IMAGENS.length;
