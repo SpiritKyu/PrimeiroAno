@@ -1,3 +1,11 @@
+
+body {
+    background-color: #ddbba1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .menu {
     position: fixed;
 
@@ -7,7 +15,7 @@
     width: 100%;
     height: 65px;
 
-    background-color: rgba(255, 255, 255, 0.29);
+    background-color: rgb(234, 196, 158);
     border: 2px solid white;
     border-left: none;
     border-right: none;
@@ -23,11 +31,15 @@
 
 .logo {
     font-family: Georgia, serif;
+
     font-size: 28px;
     font-weight: bold;
+
     color: black;
+
     text-decoration: none;
 }
+
 
 .navHeader {
     display: flex;
@@ -35,51 +47,30 @@
 }
 
 .navHeader a {
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-    transition: 0.3s;
-}
+    color: rgb(33, 41, 91);
 
-.navHeader a:hover {
-    color: rgb(25, 59, 60);
+    text-decoration: none;
+
+    font-size: 20px;
+
+    transition: 0.3s;
 }
 
 /*cinza tava feio ent eu troquei pra esse azul*/
 
-.hero {
-    width: 100%;
-    height: 100vh;
-
-    background-image: url("../images/pousada.jpg");
-    background-size: cover;
-    background-position: center;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-text {
-    color: white;
-    font-size: 20px;
-    text-shadow: 1px 1px 5px black;
+.navHeader a:hover {
+    color: rgb(112, 66, 147);
 }
 
 /*JAVA SCRIPT*/
-
 .carrossel {
-    width: 100%;
     height: 100vh;
-    position: relative;
-    overflow: hidden;
     background-color: #c8b7d8;
 }
 
 .carrossel img {
     width: 100%;
     height: 100%;
-    display: block;
     object-fit: cover;
 }
 
@@ -87,20 +78,15 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-
     width: 55px;
     height: 55px;
-
     border: none;
     border-radius: 50%;
-
     background-color: rgba(0, 0, 0, 0.45);
     color: white;
-
     font-size: 30px;
     cursor: pointer;
     transition: 0.3s;
-
     z-index: 1;
 }
 
@@ -109,7 +95,6 @@
 }
 
 /*pra quando passar o mouse ter efeito bunitinho(ignorem)*/
-
 .esquerda {
     left: 25px;
 }
@@ -118,48 +103,32 @@
     right: 25px;
 }
 
-
 /*NÃO MEXE LA EM CIMA POURA*/
-
 .colunas {
     border: 2px solid white;
     border-left: none;
     border-right: none;
-
-    width: 100%;
-
     overflow-x: auto;
     overflow-y: hidden;
-
     padding: 15px 0;
 }
 
 .colunas div {
     display: flex;
-    flex-direction: row;
     gap: 15px;
-    min-width: max-content;
 }
 
 /*section das coluna com negocio de rolar pro lado legau*/
-
 .colunas img {
     width: 200px;
     height: 200px;
-    object-fit: cover;
-    display: block;
     flex-shrink: 0;
     border-radius: 10px;
 }
 
 .apresentacao {
-    width: 100%;
     padding: 40px 20px 20px;
-
-    background-color: rgba(255, 255, 255, 0.18);
-
-    border-top: 2px solid rgba(255, 255, 255, 0.5);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 214, 179, 0.312);
 }
 
 .texto-intro {
@@ -171,65 +140,38 @@
 .texto-intro h2 {
     font-size: 32px;
     color: #1f2d2d;
-    margin-bottom: 10px;
-    font-weight: 700;
 }
 
 .texto-intro p {
-    font-size: 1.05rem;
-    line-height: 1.7;
     color: #1d2b2c;
 }
 
 .beneficios {
     max-width: 1100px;
     margin: 0 auto;
-
-    display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    display: flex;
+    justify-content: center;
     gap: 20px;
 }
 
-.beneficios div {
-    background-color: rgba(255, 255, 255, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    border-radius: 14px;
-
-    padding: 20px 18px;
-
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-}
-
 .beneficios h3 {
-    font-size: 1.2rem;
     color: #163030;
     margin-bottom: 8px;
 }
 
 .beneficios p {
-    font-size: 0.98rem;
-    line-height: 1.6;
     color: #1d2b2c;
 }
 
 .rodape {
-    width: 100%;
-    box-sizing: border-box;
-
     background-color: cadetblue;
-
     border-top: 3px solid white;
     border-bottom: 3px solid white;
-
     padding: 25px 20px 30px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    gap: 12px;
-    margin: 0;
     margin-top: auto;
 }
 
@@ -244,12 +186,10 @@
 .rodapeNav a {
     color: white;
     text-decoration: none;
-
     font-size: 16px;
     font-weight: 600;
-    letter-spacing: 0.5px;
-
     transition: 0.3s;
+    margin-top: auto
 }
 
 .rodapeNav a:hover {
@@ -259,12 +199,91 @@
 
 .rodape h5 {
     color: white;
-
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 1px;
     text-align: center;
     text-transform: uppercase;
+}
+
+/*contato embaixo*/
+.contato {
+    width: 100%;
+    margin: 125px auto 40px;
+    padding: 0 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.contato-card {
+    width: 100%;
+    max-width: 760px;
+    padding: 32px;
+    background-color: rgba(237, 230, 230, 0.35);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+}
+
+.contato-intro {
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+.contato-intro h1 {
+    margin-bottom: 10px;
+    color: #163030;
+    font-size: 36px;
+}
+
+.contato-intro p {
+    color: #263838;
+}
+
+.contato-intro a {
+    color: #163f40;
+    font-weight: 700;
+}
+
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.campo-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.campo-contato label {
+    color: #1f3333;
+    font-weight: 700;
+}
+
+
+.botao-contato {
+    align-self: flex-start;
+    padding: 11px 22px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #193b3c;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.botao-contato:hover {
+    background-color: #28595a;
+}
+
+label{
+    text-align: center;
+}
+
+input{
+    border-radius: 16px;
 }
 
 /*teste rapido*/
@@ -293,22 +312,25 @@ CELULAR
 */
 
 /*Celular*/
-
 @media (max-width: 768px) {
+    .contato {
+        margin-top: 145px;
+    }
+
+    .contato-card {
+        padding: 22px;
+    }
+
     .menu {
         position: fixed;
         top: 0;
         left: 0;
-
         width: 100%;
         height: auto;
-
         padding: 10px 14px;
-
         flex-direction: column;
         gap: 8px;
         justify-content: center;
-
         background-color: rgba(255, 255, 255, 0.29);
         border: 2px solid rgba(255, 255, 255, 0.8);
         border-left: none;
@@ -316,7 +338,7 @@ CELULAR
     }
 
     .logo {
-        font-size: clamp(1rem, 4vw, 1.8rem);
+        font-size: 20px;
         text-align: center;
         line-height: 1.2;
         width: 100%;
@@ -367,15 +389,6 @@ CELULAR
 
     .texto-intro p {
         font-size: 0.95rem;
-    }
-
-    .beneficios {
-        grid-template-columns: 1fr;
-        gap: 14px;
-    }
-
-    .beneficios div {
-        padding: 16px 14px;
     }
 
     .beneficios h3 {
