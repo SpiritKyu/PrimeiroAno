@@ -1,55 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    
-    <link rel="stylesheet" href="css/style.css">
+
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="menu">
+    <header class="menu">
+
+        <a href="index.html" class="logo">
+            POUSADA REFÚGIO DAS ESTRELAS
+        </a>
+
+        <nav class="navHeader">
             <a href="index.html">Home</a>
             <a href="contato.html">Contato</a>
-            <a href="acomodacoes.html">Acomodações</a>
+            <a href="acomodacoes.html">Alojamento</a>
+            <a href="galeria.html">Galeria</a>
             <a href="sobre.html">Sobre nós</a>
-    </nav>
+        </nav>
 
-    <h1>DESEJA FALAR COM A GENTE?</h1>
-     <p>Se precisar nos contatar, mandar reclamações, sugetões ou ideias mandem no nosso e-mail contato@refugiodasestrelas.com ou nesse formulário aqui que nós iremos te responder. </p>
+    </header>
 
-    <div>
-        <label for=""> Nome: </label>
-    </div>
-    <input type="text">
-</div>
-<div>
-    <div>
-        <label for=""> Email: </label>
-    </div>
-    <input type="email">
-</div>
-<div>
-    <div>
-        <label for=""> Telefone: </label>
-    </div>
-    <input type="text">
-</div>
-<div>
-    <div>
-        <label for=""> Assunto: </label>
-    </div>
-    <input type="text">
-    <div>
-        <label for=""> Mensagem: </label>
-    </div>
-    <input type="text">
-    <div>
-        <input type="submit" value="Enviar">
-    </div>
-</div>
+    <main class="contato">
+        <section class="contato-card">
+            <div class="contato-intro">
+                <h1>Fale com a gente</h1>
+                <p>Se precisar nos contatar, mandar reclamações, sugetões ou ideias mandem no nosso e-mail <a href="mailto:contato@refugiodasestrelas.com">contato@refugiodasestrelas.com</a>. ou nesse formulário aqui que nós iremos te responder.</p>
+            </div>
+
+            <form class="form-contato">
+                <div class="campo-contato">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome">
+                </div>
+
+                <div class="campo-contato">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email">
+                </div>
+
+                <div class="campo-contato">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone">
+                </div>
+
+                <div class="campo-contato">
+                    <label for="assunto">Assunto</label>
+                    <input type="text" id="assunto">
+                </div>
+
+                <div class="campo-contato campo-mensagem">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem"></textarea>
+                </div>
+
+                <button class="botao-contato" type="submit"> Enviar </button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+
+        <nav class="rodapeNav">
+            <a href="index.html">Home</a>
+            <a href="contato.html">Contato</a>
+            <a href="passagem.html">Passagem</a>
+            <a href="sobre.html">Sobre nós</a>
+        </nav>
+
+
+        <h5>Lição feita</h5>
+
+        <h5>© Copyright 2026 Curso Técnico de Informática para Internet - Primeiro ano</h5>
+    
+    </footer>
 
 </body>
 </html>
-
