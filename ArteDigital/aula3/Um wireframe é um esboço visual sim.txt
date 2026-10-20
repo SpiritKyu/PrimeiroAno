@@ -1,17 +1,24 @@
+Resumo yay
 Um wireframe é um esboço visual simplificado que representa um esboço visual que representa a estrutura básica e o layout de um site, aplicativo ou produto digital.
 Em um wireframe, o foco é na estrutura, demonstrando onde cada elemento ficará posicionado.
 
-1. O que é um wireframe?
+1
 Um wireframe é como se fosse um blueprint de um site, representando um esboço visual que representa a estrutura básica e o layout de um site, aplicativo ou produto digital.
 
-2. Qual a importância dos wireframe?
+2.
 Eu diria que a importância esta em economizar tempo e dinheiro, permitindo que você valide a logica de um aplicativo ou site antes de gastar recursos com design visual ou programação
 
-3. Quais são os principais elementos de um wireframe?
+3.
 Eles são divididas em três categorias:
 Elementos de Navegação(Menu, Barras de Busca, Links e Botões)
 Elementos de conteúdo e mídia(Imagens e Videos)
 Elementos de interação e formulários(Campos de entrada, Caixas de seleção e Cards de conteúdo)
 
-4.Qual é a diferença entre wireframe e um protótipo?
+4.
 O wireframe é um esqueleto estrutural focado no layout e na organização do conteúdo, enquanto o protótipo é uma simulação interativa e navegável que imita o comportamento real do produto final
+
+5. 
+Temos o figma que é muito usado hoje em dia e também é de graça. Também temos o belsamiq wireframes, além também da adobe xd que é muito completa
+
+6.
+Suas vantagens é que ela permirte economizar tempo e dinehiros, também ajudando em estrutura e na comunicação
