@@ -21,7 +21,7 @@ const riddles = [
 		answers: ["c"]
 	},
 	{
-		answers: ["b"]
+		answers: ["ptic"]
 	},
 	{
 		answers: ["interfaces web", "ui", "front-end", "front end"]
