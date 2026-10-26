@@ -27,7 +27,7 @@ const riddles = [
 		answers: ["b"]
 	},
 	{
-		answers: ["b"]
+		answers: ["artes digitais", "arte digital", "artes digital", "artes digital"]
 	},
 	{
 		answers: ["b"]
