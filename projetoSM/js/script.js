@@ -24,7 +24,7 @@ const riddles = [
 		answers: ["b"]
 	},
 	{
-		answers: ["b"]
+		answers: ["interfaces web", "ui", "front-end", "front end"]
 	},
 	{
 		answers: ["artes digitais", "arte digital", "artes digital", "artes digital"]
