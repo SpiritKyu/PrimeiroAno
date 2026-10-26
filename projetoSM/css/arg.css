@@ -1,0 +1,176 @@
+:root {
+    color-scheme: dark;
+    --arg-white: #fff;
+    --arg-muted: #c8c8c8;
+    --arg-body: Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    overflow-x: hidden;
+    background: #000;
+    color: var(--arg-white);
+    font-family: var(--arg-body);
+}
+
+.riddle-shell {
+    width: min(760px, calc(100% - 40px));
+    padding: 32px 0;
+    text-align: center;
+}
+
+.riddle-topline,
+.riddle-label,
+.riddle-content h1,
+.return-link,
+.hint-button,
+.hint-text {
+    display: none;
+}
+
+.riddle-content {
+    padding: 0;
+}
+
+.riddle-prompt {
+    margin: 0 auto 28px;
+    color: var(--arg-white);
+    font-size: clamp(18px, 3vw, 24px);
+    line-height: 1.5;
+}
+
+.puzzle-image {
+    display: block;
+    width: min(100%, 640px);
+    max-height: 52vh;
+    object-fit: contain;
+    margin: 0 auto 26px;
+}
+
+.input-instruction {
+    margin: 0 0 12px;
+    color: var(--arg-white);
+    font-size: 14px;
+}
+
+.answer-form {
+    width: min(100%, 400px);
+    margin: 0 auto;
+}
+
+.answer-row {
+    display: flex;
+    gap: 8px;
+}
+
+.answer-row input,
+.answer-row button {
+    min-height: 46px;
+    border: 1px solid #fff;
+    border-radius: 0;
+    background: #000;
+    color: #fff;
+    font: 16px var(--arg-body);
+}
+
+.answer-row input {
+    min-width: 0;
+    flex: 1;
+    padding: 0 12px;
+    outline: none;
+}
+
+.answer-row input:focus {
+    outline: 1px solid #fff;
+}
+
+.answer-row button {
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+.answer-row button:hover {
+    background: #222;
+}
+
+.choice-list {
+    display: grid;
+    gap: 10px;
+    margin: 0 0 16px;
+    text-align: left;
+}
+
+.choice-option {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px;
+    border: 1px solid #fff;
+    color: var(--arg-white);
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.choice-option:has(input:checked) {
+    background: #222;
+}
+
+.choice-option input {
+    flex: 0 0 auto;
+    margin: 4px 0 0;
+    accent-color: #fff;
+}
+
+.choice-submit {
+    min-height: 46px;
+    padding: 0 16px;
+    border: 1px solid #fff;
+    border-radius: 0;
+    background: #000;
+    color: #fff;
+    font: 16px var(--arg-body);
+    cursor: pointer;
+}
+
+.choice-submit:hover {
+    background: #222;
+}
+
+.feedback {
+    min-height: 20px;
+    margin: 12px 0 0;
+    color: var(--arg-white);
+    font-size: 13px;
+    line-height: 1.6;
+    opacity: 0;
+}
+
+.feedback.is-visible {
+    opacity: 1;
+}
+
+.feedback.is-correct {
+    color: var(--arg-white);
+}
+
+@media (max-width: 520px) {
+    .riddle-shell {
+        width: calc(100% - 36px);
+    }
+
+    .puzzle-image {
+        max-height: 45vh;
+    }
+
+    .answer-row {
+        gap: 6px;
+    }
+}
