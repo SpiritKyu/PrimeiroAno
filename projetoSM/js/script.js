@@ -12,7 +12,7 @@ const riddles = [
 		answers: ["sustentabilidade"]
 	},
 	{
-		answers: ["interfaces web", "ui", "front-end", "front end", "html", "css"]
+		answers: ["interfaces web", "ui", "front-end", "front end", "html", "css", "vscode", "interface"]
 	}
 ];
 
