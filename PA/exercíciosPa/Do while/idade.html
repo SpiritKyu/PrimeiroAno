@@ -1,0 +1,21 @@
+<script>
+  var atual, nascimento, idade;
+  var continuar;
+
+  do {
+    atual = parseInt(prompt("Ano atual: "));
+    nascimento = parseInt(prompt("Ano de nascimento: "));
+
+    idade = atual - nascimento;
+
+    if (idade >= 18) {
+      document.write("Maior de idade, idade: " + idade);
+    } else {
+      document.write("Menor de idade, idade: " + idade);
+    }
+
+    continuar = parseInt(prompt("Deseja continuar? (1-SIM / 2-NAO): "));
+
+  } while (continuar !== 2);
+
+</script>
