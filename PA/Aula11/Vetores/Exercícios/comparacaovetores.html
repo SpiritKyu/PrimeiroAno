@@ -1,28 +1,28 @@
 <script>
-var vetorA = [];
+var vetor1 = [];
 
-var vetorB = [];
+var vetor2 = [];
 
-var vetorC = [];
+var vetor3 = [];
 
 var i;
 
 for (i = 0; i < 5; i++) {
-    vetorA[i] = Number(prompt("Entre comum número pro vetor A:"));
+    vetor1[i] = parseInt(prompt("primeiro numero:"));
 }
 
 for (i = 0; i < 5; i++) {
-    vetorB[i] = Number(prompt("Entre com um número pro o vetor B:"));
+    vetor2[i] = parseInt(prompt("segundo numero:"));
 }
 
 for (i = 0; i < 5; i++) {
-    vetorC[i] = vetorA[i] + vetorB[i];
+    vetor3[i] = vetor1[i] + vetor2[i];
 }
 
-document.write("Vetor A: " + vetorA + "<br>");
+document.write("Vetor 1: " + vetor1 + "<br>");
 
-document.write("Vetor B: " + vetorB + "<br>");
+document.write("Vetor 2: " + vetor2 + "<br>");
 
-document.write("Vetor C (Soma): " + vetorC);
+document.write("Soma: " + vetor3);
 </script>
 
