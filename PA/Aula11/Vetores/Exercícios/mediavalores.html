@@ -1,0 +1,22 @@
+<script>
+    
+var vetor = [];
+
+var i;
+
+var soma = 0;
+
+var media;
+
+for (i = 0; i < 8; i++) {
+    vetor[i] = Number(prompt("Entre com uma nota:"));
+    soma = soma + vetor[i];
+}
+
+media = soma / 8;
+
+document.write("Notas: " + vetor + "<br>");
+
+document.write("A Média das notas eh: " + media);
+
+</script>

@@ -1,0 +1,28 @@
+<script>
+var vetorA = [];
+
+var vetorB = [];
+
+var vetorC = [];
+
+var i;
+
+for (i = 0; i < 5; i++) {
+    vetorA[i] = Number(prompt("Entre comum número pro vetor A:"));
+}
+
+for (i = 0; i < 5; i++) {
+    vetorB[i] = Number(prompt("Entre com um número pro o vetor B:"));
+}
+
+for (i = 0; i < 5; i++) {
+    vetorC[i] = vetorA[i] + vetorB[i];
+}
+
+document.write("Vetor A: " + vetorA + "<br>");
+
+document.write("Vetor B: " + vetorB + "<br>");
+
+document.write("Vetor C (Soma): " + vetorC);
+</script>
+

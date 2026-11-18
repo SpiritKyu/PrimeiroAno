@@ -1,0 +1,21 @@
+<script>
+var vetor = [];
+var i, j;
+var troca;
+
+for (i = 0; i < 10; i++) {
+    vetor[i] = Number(prompt("Digite um número inteiro:"));
+}
+
+for (i = 0; i < 9; i++) {
+    for (j = 0; j < 9 - i; j++) {
+        if (vetor[j] > vetor[j + 1]) {
+            troca = vetor[j];
+            vetor[j] = vetor[j + 1];
+            vetor[j + 1] = troca;
+        }
+    }
+}
+
+document.write("Números em ordem crescente: " + vetor);
+</script>

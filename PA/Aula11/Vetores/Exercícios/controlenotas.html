@@ -1,0 +1,35 @@
+<script>
+var notas = [];
+
+var i;
+
+var soma = 0;
+
+var media;
+
+var aprovados = 0;
+
+var reprovados = 0;
+
+for (i = 0; i < 10; i++) {
+    notas[i] = Number(prompt("Entre com a nota do aluno:"));
+    soma = soma + notas[i];
+
+    if (notas[i] >= 6) {
+        aprovados++;
+    } else {
+        reprovados++;
+    }
+}
+
+media = soma / 10;
+
+document.write("Notas da turma: " + notas + "<br>");
+
+document.write("Média : " + media + "<br>");
+
+document.write("Alunos que foram aprovados: " + aprovados + "<br>");
+
+document.write("Alunos que foram reprovados: " + reprovados);
+
+</script>

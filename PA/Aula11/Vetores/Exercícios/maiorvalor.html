@@ -1,0 +1,30 @@
+<script>
+var vetor = [];
+
+var i;
+
+var maior, menor;
+
+for (i = 0; i < 10; i++) {
+    vetor[i] = Number(prompt("Entre com um número inteiro:"));
+}
+
+maior = vetor[0];
+menor = vetor[0];
+
+for (i = 1; i < 10; i++) {
+    if (vetor[i] > maior) {
+        maior = vetor[i];
+    }
+
+    if (vetor[i] < menor) {
+        menor = vetor[i];
+    }
+}
+
+document.write("Vetor: " + vetor + "<br>");
+
+document.write("Maior número: " + maior + "<br>");
+
+document.write("Menor número: " + menor);
+</script>

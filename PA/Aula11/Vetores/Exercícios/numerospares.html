@@ -1,0 +1,26 @@
+<script>
+var vetor = [];
+
+var i;
+
+var pares = 0;
+
+var impares = 0;
+
+for (i = 0; i < 10; i++) {
+    vetor[i] = Number(prompt("Entre com um número inteiro:"));
+
+    if (vetor[i] % 2 == 0) {
+        pares++;
+    } else {
+        impares++;
+    }
+}
+
+document.write("Vetor: " + vetor + "<br>");
+
+document.write("Número de  Pares: " + pares + "<br>");
+
+document.write("Número de ímpares: " + impares);
+</script>
+
