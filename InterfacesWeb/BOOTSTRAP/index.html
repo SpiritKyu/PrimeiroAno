@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Encontre seu próximo livro favorito na Livraria Página Aberta.">
+    <title>LivrariaLegal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MKn5NWVBEuQXJE7TSKSgPUmMiSCmVTfCsR+VSSeQpHnoyJQZZFn/kBn+Ht5jZDPQ" crossorigin="anonymous">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-+PW0IDVGGwmpaBQvcXY+W0BcpHpITFB3dSfSoGvDdHtLbrLpSbpGcvtQRM/BJpz+" crossorigin="anonymous"></script>    
+</head>
+<body>
+    <div class="bg-primary text-white text-center py-2">
+        <p class="mb-0 small">Frete grátis!</p>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-white border-bottom">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary fs-4" href="#">Página Aberta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <form class="d-flex my-3 my-lg-0 mx-lg-auto w-100" role="search">
+                    <label class="visually-hidden" for="busca">Buscar livros</label>
+                    <input class="form-control" id="busca" type="search" placeholder="O que você quer ler hoje?" aria-label="Buscar livros">
+                    <button class="btn btn-primary ms-2" type="submit">Buscar</button>
+                </form>
+                <ul class="navbar-nav ms-lg-4 align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="#destaques">Destaques</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#categorias">Categorias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#newsletter">Novidades</a></li>
+                    <li class="nav-item ms-lg-2"><a class="btn btn-outline-primary text-nowrap" href="#destaques">Minha sacola <span class="badge text-bg-primary">0</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="container py-4 py-lg-5" aria-label="Ofertas e novidades">
+            <div id="carouselStacked" class="carousel slide">
+  <div class="d-flex justify-content-between align-items-center">
+    <h5 class="mb-0">Top controls</h5>
+    <div>
+      <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselStacked" data-bs-slide="prev">
+        <span class="carousel-icon-prev" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselStacked" data-bs-slide="next">
+        <span class="carousel-icon-next" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="carousel-inner rounded-5">
+    <div class="carousel-item active">
+      <img src="imagens/livro1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="imagens/livro2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="imagens/livro3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+        </section>
+
+        <section class="container py-4" id="categorias">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4">
+                <div>
+                    <p class="text-primary fw-semibold mb-1">Encontre seu próximo capítulo</p>
+                    <h2 class="h3 mb-0">Explore por categoria</h2>
+                </div>
+                <a class="link-primary mt-2 mt-md-0" href="#destaques">Ver todos os livros</a>
+            </div>
+            <div class="row g-3">
+                <div class="col-6 col-md-4 col-lg-2"><a href="#destaques" class="d-block text-center text-decoration-none border rounded-3 p-3 h-100"><span class="d-block fs-3 mb-2" aria-hidden="true">📖</span><span class="fw-semibold text-dark">Romance</span></a></div>
+                <div class="col-6 col-md-4 col-lg-2"><a href="#destaques" class="d-block text-center text-decoration-none border rounded-3 p-3 h-100"><span class="d-block fs-3 mb-2" aria-hidden="true">🧭</span><span class="fw-semibold text-dark">Aventura</span></a></div>
+                <div class="col-6 col-md-4 col-lg-2"><a href="#destaques" class="d-block text-center text-decoration-none border rounded-3 p-3 h-100"><span class="d-block fs-3 mb-2" aria-hidden="true">🔍</span><span class="fw-semibold text-dark">Suspense</span></a></div>
+                <div class="col-6 col-md-4 col-lg-2"><a href="#destaques" class="d-block text-center text-decoration-none border rounded-3 p-3 h-100"><span class="d-block fs-3 mb-2" aria-hidden="true">🧠</span><span class="fw-semibold text-dark">Não ficção</span></a></div>
+                <div class="col-6 col-md-4 col-lg-2"><a href="#destaques" class="d-block text-center text-decoration-none border rounded-3 p-3 h-100"><span class="d-block fs-3 mb-2" aria-hidden="true">🧒</span><span class="fw-semibold text-dark">Infantil</span></a></div>
+                <div class="col-6 col-md-4 col-lg-2"><a href="#destaques" class="d-block text-center text-decoration-none border rounded-3 p-3 h-100"><span class="d-block fs-3 mb-2" aria-hidden="true">✨</span><span class="fw-semibold text-dark">Fantasia</span></a></div>
+            </div>
+        </section>
+
+        <section class="container py-5" id="destaques">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4">
+                <div>
+                    <p class="text-primary fw-semibold mb-1">Escolhas que encantam</p>
+                    <h2 class="h3 mb-0">Livros em destaque</h2>
+                </div>
+                <a class="link-primary mt-2 mt-md-0" href="#categorias">Descobrir mais livros</a>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <article class="card h-100">
+                        <div class="ratio ratio-4x3"><img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&amp;fit=crop&amp;w=700&amp;q=85" class="card-img-top object-fit-cover" alt="Livros coloridos empilhados"></div>
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge text-bg-light align-self-start mb-2">Mais vendido</span>
+                            <h3 class="h5 card-title">A biblioteca da meia-noite</h3>
+                            <p class="text-body-secondary small">Matt Haig</p>
+                            <p class="fw-bold fs-5 mt-auto mb-3">R$ 49,90</p>
+                            <a href="#newsletter" class="btn btn-outline-primary">Adicionar à sacola</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100">
+                        <div class="ratio ratio-4x3"><img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&amp;fit=crop&amp;w=700&amp;q=85" class="card-img-top object-fit-cover" alt="Livros em uma estante"></div>
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge text-bg-light align-self-start mb-2">Queridinho</span>
+                            <h3 class="h5 card-title">Tudo é rio</h3>
+                            <p class="text-body-secondary small">Carla Madeira</p>
+                            <p class="fw-bold fs-5 mt-auto mb-3">R$ 44,90</p>
+                            <a href="#newsletter" class="btn btn-outline-primary">Adicionar à sacola</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100">
+                        <div class="ratio ratio-4x3"><img src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&amp;fit=crop&amp;w=700&amp;q=85" class="card-img-top object-fit-cover" alt="Pessoa lendo um livro"></div>
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge text-bg-light align-self-start mb-2">Para inspirar</span>
+                            <h3 class="h5 card-title">A coragem de ser imperfeito</h3>
+                            <p class="text-body-secondary small">Brené Brown</p>
+                            <p class="fw-bold fs-5 mt-auto mb-3">R$ 39,90</p>
+                            <a href="#newsletter" class="btn btn-outline-primary">Adicionar à sacola</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100">
+                        <div class="ratio ratio-4x3"><img src="https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&amp;fit=crop&amp;w=700&amp;q=85" class="card-img-top object-fit-cover" alt="Livros e cadernos para estudar"></div>
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge text-bg-light align-self-start mb-2">Clássico</span>
+                            <h3 class="h5 card-title">O pequeno príncipe</h3>
+                            <p class="text-body-secondary small">Antoine de Saint-Exupéry</p>
+                            <p class="fw-bold fs-5 mt-auto mb-3">R$ 29,90</p>
+                            <a href="#newsletter" class="btn btn-outline-primary">Adicionar à sacola</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light py-5" id="newsletter">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-6">
+                        <p class="text-primary fw-semibold mb-1">Uma carta para quem ama ler</p>
+                        <h2 class="h3">Novidades que combinam com você</h2>
+                        <p class="text-body-secondary mb-0">Cadastre seu e-mail para receber lançamentos, dicas de leitura e ofertas especiais.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <form class="row g-2">
+                            <div class="col-sm">
+                                <label class="visually-hidden" for="email">Seu e-mail</label>
+                                <input class="form-control form-control-lg" id="email" type="email" placeholder="Seu melhor e-mail">
+                            </div>
+                            <div class="col-sm-auto"><button class="btn btn-primary btn-lg w-100" type="submit">Quero receber</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-2">
+            <a class="text-white text-decoration-none fw-bold fs-5" href="#">Página Aberta</a>
+            <p class="mb-0 text-white-50 small">Um bom livro sempre abre novos caminhos. © 2026 Página Aberta.</p>
+        </div>
+    </footer>
+</body>
+</html>
